@@ -15,6 +15,7 @@
   box-shadow: 0px -14px 16px 0px #0000000d;
   position: absolute;
   bottom: 0;
+  z-index: 1;
 }
 
 .form {
@@ -25,8 +26,7 @@
   width: 100%;
 }
 
-input[type="text"],
-input[type="password"] {
+.inputNormal {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -42,8 +42,7 @@ input[type="password"] {
   background-color: transparent;
 }
 
-input[type="text"]:focus,
-input[type="password"]:focus {
+.inputNormal:focus {
   outline-color: #649fd6;
 }
 
@@ -62,7 +61,7 @@ label {
   font-size: 16px;
   display: block;
   color: #3b3b3b;
-  margin: 5px 0;
+  margin: 0;
 }
 
 input[type="submit"] {
@@ -90,6 +89,16 @@ input[type="submit"]:active {
   transition: 0.3s;
 }
 
+.password-toogle-icon {
+  position: relative;
+  width: 20px;
+  top: -43px;
+  left: 289px;
+  z-index: 1000;
+  cursor: pointer;
+  color: #939393;
+}
+
 sup {
   font-family: "Encode-sans", sans-serif;
   font-weight: 400;
@@ -102,8 +111,16 @@ sup {
   flex-direction: row;
   align-items: baseline;
   margin-top: 3px;
+  position: absolute;
+  transform: translateY(-9px);
 }
-
+.popUpAlertUsuario {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 3px;
+  transform: translateY(-10px);
+}
 .warning {
   margin-right: 5px;
   height: 14px;
