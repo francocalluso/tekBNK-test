@@ -46,6 +46,13 @@
   outline-color: #649fd6;
 }
 
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 h2 {
   font-family: "Lato", sans-serif;
   font-size: 24px;
@@ -53,13 +60,13 @@ h2 {
   line-height: 19px;
   color: #3b3b3b;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 label {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  display: block;
   color: #3b3b3b;
   margin: 0;
 }
@@ -112,8 +119,9 @@ sup {
   align-items: baseline;
   margin-top: 3px;
   position: absolute;
-  transform: translateY(-9px);
+  bottom: 121px;
 }
+
 .popUpAlertUsuario {
   display: flex;
   flex-direction: row;
@@ -121,6 +129,7 @@ sup {
   margin-top: 3px;
   transform: translateY(-10px);
 }
+
 .warning {
   margin-right: 5px;
   height: 14px;
@@ -147,7 +156,4 @@ sup {
 
 .recupCont:hover {
   color: #649fd6;
-}
-
-@media screen and (min-width: 780px) {
 }

@@ -40,10 +40,10 @@ export const FormSignIn = () => {
   return (
     
     <div className="formSignIn">
-        
+
         <form className="form" onSubmit={handleSubmit}>
             
-            <div>
+            <div className='inputGroup'>
             <h2>Iniciá sesión</h2>
             <label>Usuario<sup>*</sup></label>
             <input 
@@ -57,7 +57,7 @@ export const FormSignIn = () => {
             {errors.name && <span className="popUpAlertUsuario"><img className="warning"src={warning} alt="warning"/><p className="alerta">{errors.name}</p></span>}
             </div>
             
-            <div>
+            <div className='inputGroup'>
             <label>Contraseña<sup>*</sup></label>
             <input
             className="inputNormal" 
