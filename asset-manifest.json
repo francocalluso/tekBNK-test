@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-tech-fc/static/css/main.a6bce37f.css",
+    "main.js": "/test-tech-fc/static/js/main.4976daf3.js",
+    "static/media/appDev.png": "/test-tech-fc/static/media/appDev.a9d2c8118e8d703b2e2a.png",
+    "static/media/warning.png": "/test-tech-fc/static/media/warning.d5384287304578859738.png",
+    "index.html": "/test-tech-fc/index.html",
+    "main.a6bce37f.css.map": "/test-tech-fc/static/css/main.a6bce37f.css.map",
+    "main.4976daf3.js.map": "/test-tech-fc/static/js/main.4976daf3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6bce37f.css",
+    "static/js/main.4976daf3.js"
+  ]
+}
