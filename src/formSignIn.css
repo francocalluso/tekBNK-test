@@ -239,4 +239,8 @@ sup {
   .recupCont {
     margin-top: 80px;
   }
+
+  .popUpAlertCont {
+    bottom: 157px;
+  }
 }

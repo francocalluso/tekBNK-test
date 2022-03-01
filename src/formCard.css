@@ -1,7 +1,7 @@
 .formCard {
   border-radius: 40px 40px 0 0;
   padding: 40px 40px 10px 40px;
-  width: 100%;
+  width: 100vw;
   background-color: #ffffff;
   box-shadow: 0px -14px 16px 0px #0000000d;
   position: absolute;
