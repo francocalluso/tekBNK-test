@@ -1,0 +1,21 @@
+.formCard {
+  border-radius: 40px 40px 0 0;
+  padding: 40px 40px 10px 40px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px -14px 16px 0px #0000000d;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1024px) {
+  .formCard {
+    position: relative;
+    width: 40%;
+    left: -40px;
+    background-color: transparent;
+    box-shadow: none;
+    z-index: 1;
+  }
+}

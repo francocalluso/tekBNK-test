@@ -1,0 +1,27 @@
+.responseContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  height: 74.5px;
+  width: 320px;
+  padding: 20px;
+  border: 1px solid #ffb1b8;
+  background-color: #fee7e9;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.warningResp {
+  height: 24px;
+  width: 24px;
+}
+
+.txtResp {
+  font-family: "Encode-sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #3c3c3b;
+  padding-top: 15px;
+  padding-left: 15px;
+}

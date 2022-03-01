@@ -3,20 +3,7 @@
   padding: 0;
 }
 
-.container {
-  padding: 0;
-}
-
-.formSignIn {
-  border-radius: 40px 40px 0 0;
-  padding: 40px;
-  width: 100%;
-  background-color: #ffffff;
-  box-shadow: 0px -14px 16px 0px #0000000d;
-  position: absolute;
-  bottom: 0;
-  z-index: 1;
-}
+/*FORMULARIO SIGN IN*/
 
 .form {
   display: flex;
@@ -24,26 +11,6 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-}
-
-.inputNormal {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  color: #555555;
-  padding: 10px 12px 10px 10px;
-  width: 320px;
-  height: 42px;
-  border: 1px solid #939393;
-  box-sizing: border-box;
-  border-radius: 7px;
-  margin: 3px 0 11px 0;
-  background-color: transparent;
-}
-
-.inputNormal:focus {
-  outline-color: #649fd6;
 }
 
 .inputGroup {
@@ -63,6 +30,8 @@ h2 {
   text-align: left;
 }
 
+/* INPUT ITEMS */
+
 label {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -71,29 +40,35 @@ label {
   margin: 0;
 }
 
-input[type="submit"] {
+sup {
+  font-family: "Encode-sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #d42f1a;
+}
+
+.inputNormal {
   font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 19px;
+  color: #555555;
+  padding: 10px 12px 10px 10px;
   width: 320px;
   height: 42px;
-  background: #8a3879;
+  border: 1px solid #939393;
+  box-sizing: border-box;
   border-radius: 7px;
-  border: none;
-  color: #ffffff;
-  flex-shrink: 0;
-  margin-top: 10px;
+  margin: 3px 0 11px 0;
+  background-color: transparent;
 }
 
-input[type="submit"]:hover {
-  background-color: #a54f93;
-  transition: 0.5s;
+.inputNormal::placeholder {
+  color: #939393;
 }
 
-input[type="submit"]:active {
-  background-color: #78306b;
-  transition: 0.3s;
+.inputNormal:focus {
+  outline-color: #649fd6;
 }
 
 .password-toogle-icon {
@@ -106,20 +81,34 @@ input[type="submit"]:active {
   color: #939393;
 }
 
-sup {
-  font-family: "Encode-sans", sans-serif;
+/* ESTADO ERROR */
+
+.inputError {
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: #d42f1a;
+  line-height: 19px;
+  color: #555555;
+  padding: 10px 12px 10px 10px;
+  width: 320px;
+  height: 42px;
+  border: 1px solid #d42f1a;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 3px 0 11px 0;
+  background-color: transparent;
 }
 
-.popUpAlert {
+.inputError::placeholder {
+  color: #939393;
+}
+.popUpAlertCont {
   display: flex;
   flex-direction: row;
   align-items: baseline;
   margin-top: 3px;
   position: absolute;
-  bottom: 121px;
+  bottom: 98px;
 }
 
 .popUpAlertUsuario {
@@ -134,6 +123,7 @@ sup {
   margin-right: 5px;
   height: 14px;
   width: auto;
+  transform: translateY(2px);
 }
 
 .alerta {
@@ -141,6 +131,32 @@ sup {
   font-weight: 300;
   font-size: 13px;
   color: #d42f1a;
+}
+
+/* BOTONES */
+
+.btnSubmit {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  width: 320px;
+  height: 42px;
+  background: #8a3879;
+  border-radius: 7px;
+  border: none;
+  color: #ffffff;
+  flex-shrink: 0;
+}
+
+.btnSubmit:hover {
+  background-color: #a54f93;
+  transition: 0.5s;
+}
+
+.btnSubmit:active {
+  background-color: #78306b;
+  transition: 0.3s;
 }
 
 .recupCont {
@@ -155,5 +171,72 @@ sup {
 }
 
 .recupCont:hover {
-  color: #649fd6;
+  color: #a54f93;
+  transition: 0.3s;
+}
+
+/* RECUPERAR CONTRASEÑA */
+
+/* SELECT */
+
+.inputSelect {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+  width: 320px;
+  height: 42px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 3px 0 11px 0;
+  background-color: transparent;
+}
+.inputSelect::placeholder {
+  color: #939393;
+}
+
+/* BOTONES RECUPERAR CONTRASEÑA */
+
+.btnFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.btnVolver {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  line-height: 19px;
+  width: 158px;
+  height: 41px;
+  background: transparent;
+  border-radius: 7px;
+  border: 1px solid #8a3879;
+  color: #8a3879;
+}
+
+.btnContinuar {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 19px;
+  width: 158px;
+  height: 41px;
+  background: #8a3879;
+  border-radius: 7px;
+  border: none;
+  color: #ffffff;
+  margin-left: 11px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .recupCont {
+    margin-top: 80px;
+  }
 }
