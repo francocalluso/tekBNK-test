@@ -1,6 +1,6 @@
 import React from 'react'
 import "../topBar.css"
-import logo from "../tekBNK.png"
+import logo from "https://raw.githubusercontent.com/francocalluso/tekBNK-test/main/src/tekBNK.png"
 
 
 export function TopLogo() {
