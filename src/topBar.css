@@ -7,28 +7,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-top: 30px;
-}
-
-.txtLogoTek {
-  font-family: "Rubik", sans-serif;
-  font-weight: 300;
-  font-size: 26px;
-  line-height: 30.81px;
-  padding: 0 0 0 6px;
-}
-.txtLogoBNK {
-  font-family: "Rubik", sans-serif;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 30.81px;
+  transform: translateY(-10px);
 }
 
 .logo {
-  height: 40.69px;
-  width: 40.69px;
+  width: 50px;
   transform: translateY(-10px);
 }
 
