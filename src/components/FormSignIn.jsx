@@ -1,5 +1,5 @@
 import React from 'react'
-import warning from '../warning.png'
+import warning from 'https://raw.githubusercontent.com/francocalluso/tekBNK-test/main/src/warning.png'
 import "../formSignIn.css";
 import { useForm } from '../hooks/useForm'
 import { usePasswordToogle } from '../hooks/usePasswordToogle';
