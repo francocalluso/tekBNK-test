@@ -1,5 +1,5 @@
 import React from 'react'
-import appDev from 'https://raw.githubusercontent.com/francocalluso/tekBNK-test/main/src/appDev.png'
+import appDev from '../appDev.png'
 import "../formHeader.css"
 
 export function FormHeader() {
