@@ -17,11 +17,12 @@ import {
 export function Container() {
 
   return (
-    <div className="container">
 
+    <div className="container">
         <TopLogo/>
         <FormHeader/>
         <FormCard/>
     </div>
+    
   )
 }

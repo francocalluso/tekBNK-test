@@ -22,8 +22,7 @@ const validationsForm =(form) => {
 
     if(!form.name.trim()) {
         errors.name = "Este campo no debe estar vacío"
-    }
-    
+    } 
 
     if(!form.password) {
         errors.password = "Este campo no debe estar vacío"
@@ -52,7 +51,6 @@ export function FormSignIn() {
     <>
     {loading && <Loading/>}
     <form className="form" onSubmit={handleSubmit}>
-
         <div className='inputGroup'>
         <h2>Iniciá sesión</h2>
         {incorrecto && <Response/>}

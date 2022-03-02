@@ -22,9 +22,9 @@ export const useForm = (initialForm, validateForm) => {
 
  const handleSubmit = (e) =>{
      e.preventDefault();
-     handleChange(e);
+     handleChange(e); 
      setErrors(validateForm(form));
-     console.log(Object.keys(errors).length)
+     console.log(Object.keys(errors).length);
      if(Object.keys(errors).length === 0){
      setLoading(true);
      setTimeout(() => (setIncorrecto(true), setLoading(false)),1500);    
