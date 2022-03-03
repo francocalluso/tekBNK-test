@@ -12,10 +12,13 @@
 @media only screen and (min-width: 1024px) {
   .formCard {
     position: relative;
+    padding: 0;
+    border-radius: 0px;
     width: 40%;
     left: -40px;
-    background-color: transparent;
+    background-color: #ffffff;
     box-shadow: none;
     z-index: 1;
+    transform: translateY(10px);
   }
 }

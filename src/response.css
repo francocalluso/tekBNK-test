@@ -3,13 +3,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: start;
-  height: 74.5px;
+  height: 74px;
   width: 320px;
   padding: 20px;
   border: 1px solid #ffb1b8;
   background-color: #fee7e9;
   border-radius: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 
 .warningResp {

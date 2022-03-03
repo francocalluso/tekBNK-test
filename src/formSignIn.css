@@ -26,7 +26,7 @@ h2 {
   font-weight: 600;
   line-height: 19px;
   color: #3b3b3b;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   text-align: left;
 }
 
@@ -115,8 +115,7 @@ sup {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  margin-top: 3px;
-  transform: translateY(-10px);
+  transform: translateY(-7px);
 }
 
 .warning {
@@ -237,10 +236,10 @@ sup {
 
 @media only screen and (min-width: 1024px) {
   .recupCont {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .popUpAlertCont {
-    bottom: 157px;
+    bottom: 110px;
   }
 }

@@ -42,8 +42,6 @@ export function RecupCont() {
     const{
         form, 
         errors, 
-        loading, 
-        response, 
         handleChange, 
         handleSubmit,
         } = useForm(initialForm,validationsForm);
