@@ -38,7 +38,7 @@
   }
   .imgGraf {
     position: relative;
-    transform: translate(-30px, 20px);
+    transform: translate(50px, 20px);
     z-index: 1;
     flex: 1 1 auto;
   }
